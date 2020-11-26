@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  
+}
+
+.nav-links {
+  list-style: none;
+ 
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.nav-links li a:link {
+  color: black;
+}
+
+.nav-links li a:visited {
+  color: #f4f4f4;
+}
+
+.nav-links li a:hover {
+  color: #f4f4f4;
+  background-color: rgba(185, 4, 21, 0.5);
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+
+@media(max-width: 630px) {
+  .showcase-content-p {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+}
+
+.showcase {
+  background: url(images/blackandwhiteguitar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+
+.showcase-content {
+  color: #f4f4f4;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+
+}
+
+.showcase-content h1 {
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.showcase-content h3 {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.showcase-content p {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.showcase-content-p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.container2 {
+  background-color: #333;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container2 h1 {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.container2 h3 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.container2 p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 125px;
+  margin: 0 auto;
+  background-color: #b90415;
+  color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #eb4253;
+}
+
+img {
+ width: 100%;
+ max-width: 1000px;
+ height: auto;
+ margin: 0 auto;
+}
+
+.container3 {
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container3 h1 {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.container3 p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.container3 img {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px #f4f4f4 solid;
+}
+
+.container4 {
+  background-color: #333;
+  padding: 20px;
+}
+
+.container4-content {
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container4-content ul {
+  line-height: 1.9rem;;
+}
+
+.container4-content ul li {
+  list-style: none;
+  
+}
+
+
+.container4-content ul li a {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.container4-content ul li a:link {
+  color: #f4f4f4;
+}
+
+.container4-content ul li a:visited {
+  color: #f4f4f4;
+}
+
+.container4-content ul li a:hover {
+  color: #eb4253;
+  padding: 10px;
+}
+
+@media(max-width: 630px) {
+  .container4 {
+    display: none;
+  }
+
+}
