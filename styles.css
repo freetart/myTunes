@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -15,12 +15,10 @@ nav {
   background-color: #333;
   position: fixed;
   width: 100%;
-  
 }
 
 .nav-links {
   list-style: none;
- 
 }
 
 .nav-links li {
@@ -49,7 +47,7 @@ nav {
   border-radius: 40px;
 }
 
-@media(max-width: 630px) {
+@media (max-width: 630px) {
   .showcase-content-p {
     display: none;
   }
@@ -57,11 +55,10 @@ nav {
   nav {
     display: none;
   }
-
 }
 
 .showcase {
-  background: url(images/blackandwhiteguitar.jpg);
+  background: url(/Images/blackandwhiteguitar.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +73,6 @@ nav {
   align-items: center;
   text-align: center;
   flex-basis: 100%;
-
 }
 
 .showcase-content h1 {
@@ -98,7 +94,6 @@ nav {
   width: 50%;
   margin: 0 auto;
 }
-
 
 .container2 {
   background-color: #333;
@@ -131,7 +126,7 @@ button {
   margin: 0 auto;
   background-color: #b90415;
   color: #f4f4f4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
 
@@ -140,10 +135,10 @@ button:hover {
 }
 
 img {
- width: 100%;
- max-width: 1000px;
- height: auto;
- margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .container3 {
@@ -191,14 +186,12 @@ footer {
 }
 
 .container4-content ul {
-  line-height: 1.9rem;;
+  line-height: 1.9rem;
 }
 
 .container4-content ul li {
   list-style: none;
-  
 }
-
 
 .container4-content ul li a {
   text-decoration: none;
@@ -218,9 +211,8 @@ footer {
   padding: 10px;
 }
 
-@media(max-width: 630px) {
+@media (max-width: 630px) {
   .container4 {
     display: none;
   }
-
 }
