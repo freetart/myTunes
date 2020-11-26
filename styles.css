@@ -32,9 +32,9 @@ nav {
   transition: all 0.35s ease-in-out;
 }
 
-.nav-links li a:link {
+/* .nav-links li  {
   color: black;
-}
+} */
 
 .nav-links a {
   color: #f4f4f4;
