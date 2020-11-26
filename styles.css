@@ -58,7 +58,7 @@ nav {
 }
 
 .showcase {
-  background: url(/Images/blackandwhiteguitar.jpg);
+  background: url(Images/blackandwhiteguitar.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
